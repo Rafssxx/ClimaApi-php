@@ -2,6 +2,9 @@
 
 Este é um aplicativo web desenvolvido em PHP e Bootstrap que consome a API do OpenWeather para fornecer informações meteorológicas.
 
+![apiapp](https://github.com/Rafssxx/ClimaApi-php/assets/168215489/f53fdeff-1cef-4a4b-ac7f-dff8d655eb5f)
+
+
 ## Funcionalidades
 
 - Exibe a temperatura atual, e condições climáticas de qualquer cidade.
@@ -20,7 +23,7 @@ Este é um aplicativo web desenvolvido em PHP e Bootstrap que consome a API do O
 - Servidor web (Apache, Nginx, etc.)
 - Chave de API do OpenWeather
 
-## Como pegar Sua Key
+## Como Pegar Sua Key
 
 Para receber uma **key** da api open weather deve ser realizaado um login na plataforma  *https://openweathermap.org/*, apos realizar login basta clicar no icone do seu perfil e acessar <code> api keys </code> como mostra as fotos abaixo.
 
