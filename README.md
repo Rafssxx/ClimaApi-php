@@ -23,7 +23,7 @@ Este é um aplicativo web desenvolvido em PHP e Bootstrap que consome a API do O
 - Servidor web (Apache, Nginx, etc.)
 - Chave de API do OpenWeather
 
-## Como Pegar Sua Key
+## Utilização
 
 Para receber uma **key** da api open weather deve ser realizaado um login na plataforma  *https://openweathermap.org/*, apos realizar login basta clicar no icone do seu perfil e acessar <code> api keys </code> como mostra as fotos abaixo.
 
@@ -32,4 +32,15 @@ Para receber uma **key** da api open weather deve ser realizaado um login na pla
 
 
 ![apikey](https://github.com/Rafssxx/ClimaApi-php/assets/168215489/b9e49bb9-3d8f-4697-ab70-f80d0ddb3135)
+
+Apos receber a key basta mudar o trecho de codigo <code> "Sua key da api" </code> no arquivo ApiService.php para a sua key fornecida na plataforma da openWeather
+<pre>
+  <code>
+    class ApiService
+{
+    private $key = "Sua key da api";
+    private $city;
+  </code>
+</pre>
+
 
