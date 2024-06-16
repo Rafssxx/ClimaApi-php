@@ -1,7 +1,7 @@
 <?php
 class ApiService
 {
-    private $key = "f67cdee6fc3b27f425eab09c52a019f8";
+    private $key = "Sua key da api";
     private $city;
 
     public function getKey()
